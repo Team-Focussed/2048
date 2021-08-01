@@ -2,15 +2,15 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #fff;
+  background:#1e2641;
   color: #000;
 /*  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;*/
   font-family: 'Comic Sans', 'Comic Sans', Chalkboard, Helvetica, Arial, sans-serif;
   font-size: 18px; 
-  -webkit-animation: background-gradient-change linear 6s infinite alternate;
+  /* -webkit-animation: background-gradient-change linear 6s infinite alternate;
   -moz-animation: background-gradient-change linear 6s infinite alternate;
-  -moz-animation: background-gradient-change linear 6s infinite alternate; }
-
+  -moz-animation: background-gradient-change linear 6s infinite alternate; } */
+}
 body {
   margin: 80px 0 0 0; }
 
@@ -20,7 +20,7 @@ body {
   clear: both; }
 
 h1.title {
-  color:#333;
+  color:#ff9900;
   font-size: 48px;
   font-weight: bold;
   margin: 0;
@@ -173,6 +173,7 @@ h1.title {
     
 
   .info-container {
+    display: none;
     position: relative;
     cursor:pointer;
     left:50%;
@@ -207,7 +208,7 @@ h1.title {
   }
     
   .info-container, .hide-info {
-    background: #f0f;
+    background: #ff9900;
     padding: 10px 15px;
     height: 10px;
     line-height: 10px;
@@ -248,7 +249,7 @@ h1.title {
       
       
   .key-container, .hide-key {
-    background: #f0f;
+    background: #ff9900;
     padding: 10px 15px;
     height: 10px;
     line-height: 10px;
@@ -289,7 +290,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #f0f;
+  background: #ff9900;
   padding: 15px 25px;
 /*  font-size: 25px;*/
   height: 25px;
@@ -308,7 +309,7 @@ h1.title {
     font-size: 12px;
     line-height: 13px;
     text-align: center;
-    color: #000; }
+    color: #1e2641; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -328,7 +329,9 @@ h1.title {
 
 .best-container:after {
   content: "Best"; }
-
+.best-container{
+  display: none;
+}
 p {
   margin-top: 0;
   margin-bottom: 10px;
@@ -1043,3 +1046,9 @@ hr {
   .game-message .lower {
     margin-top: 30px !important; } }
     
+.scores-container{
+  position: fixed;
+  top:10px;
+  right:10px;
+  margin: 10px 10px;
+}
