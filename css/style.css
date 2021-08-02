@@ -165,4 +165,46 @@ a {
   -webkit-animation-delay: 0.1s;
           animation-delay: 0.1s;
 }
+
+/* =-=-=- CHANGES BY AALIYA  -=-=-= */
+.landing .howTo {
+  width: 70px;
+  height: 55px;
+  position: absolute;
+  bottom: 75px;
+  left: 12px;
+  line-height: 59px;
+}
+
+/* =-=-=- CHANGES BY AALIYA  -=-=-= */
+/* =-=-=- CHANGES BY AALIYA  -=-=-= */
+.instruction .para {
+  margin: 80px 15% 45px;
+  text-align: center;
+}
+
+.instruction .title .box {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  padding: 1px 60px;
+  height: 80px;
+  width: 100%;
+}
+
+.instruction .title .box span {
+  font-size: 40px;
+  line-height: 0px;
+}
+
+.instruction .howTo {
+  height: 50px;
+  padding: 4px;
+}
+
+.instruction .howTo .fa-arrow-left {
+  font-size: 40px;
+}
+
+/* =-=-=- CHANGES BY AALIYA  -=-=-= */
 /*# sourceMappingURL=style.css.map */
